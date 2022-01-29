@@ -73,14 +73,12 @@ fun CurvedScroll() {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(55.dp)
-                .background(Color.Black),
+                .height(55.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
             Text(
                 text = "Curved Scrollview",
-                color = Color.White,
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Bold
             )
@@ -88,7 +86,6 @@ fun CurvedScroll() {
 
         Box(
             modifier = Modifier
-                .background(Color.Black)
                 .fillMaxSize()
                 .padding(start = 10.dp, end = 10.dp),
             contentAlignment = Alignment.CenterStart
